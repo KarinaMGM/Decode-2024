@@ -129,6 +129,7 @@ body{
 
     .warning{
         margin-top: auto;
+        font-size: 1.6vw;
     }
 
     .type__button{
@@ -138,6 +139,10 @@ body{
     .type__button .btn1, .btn2, .btn3{
         width: 18%;
         font-size: 1.6vw;
+    }
+
+    .footnote{
+        font-size: 2vw;
     }
 }
 
