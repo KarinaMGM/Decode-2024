@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="portuguese-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decode 2024</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+
+<body>
+    <header>
+        <h1 class="title"> DECODE 2024 </h1>
+    </header>
+    <main class="presentation">
+        <div class="type">
+            <div>
+                <textarea id="txt_in" class="type__text__in" placeholder="Digite aqui seu texto"></textarea>
+            </div>
+            <div>
+                <textarea id="txt_out" class="type__text__out" placeholder="Saída criptografada"></textarea>
+            </div>
+        </div>
+        <div class="warning">
+            <img class="type__warning" src="./assets/ponto-de-exclamacao.png">
+            Insira apenas letras minúsculas e sem acento!
+        </div>
+        <div class="type__button">
+            <button onclick="encryptMessage()" class="btn1">Criptografar</button>
+            <button onclick="decriptMessage()" class="btn2">Descriptografar</button>
+            <button onclick="copyMessage()" class="btn3">Copiar</button>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+<footer class="footnote">
+    <p>Desenvolvido por Karina MGM</p>
+</footer>
+
+</html>
