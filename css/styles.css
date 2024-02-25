@@ -104,6 +104,10 @@ body{
 
 @media (max-width: 1200px){
 
+    .body{
+        margin:auto;
+    }
+
     .title{
         font-size: 1.5rem;
     }
